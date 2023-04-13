@@ -1,116 +1,17 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <title>Página de login</title>
-
-    <link rel="stylesheet" href="style.css">
-
-</head>
-
-<script>
-    function faça() {
-    var usuario;
-    var recorrente;
-    
-    recorrente = true;
-    window.alert("Qual o nome do usuário?");
-    usuario = window.prompt('Enter a value for usuario');
-    do {
-        if (usuario == "Isabella") {
-            var senha;
-            
-            window.alert("Senha:");
-            senha = window.prompt('Enter a value for senha');
-            if (senha == "123") {
-                window.alert("Acessando conta...");
-                recorrente = false;
-            } else {
-                window.alert("Senha incorreta!");
-            }
-        } else {
-            window.alert("Incorreta!");
-        }
-    } while (recorrente);
-}
-
-function enquanto() {
-    var usuario;
-    var recorrente;
-    
-    recorrente = true;
-    window.alert("Qual o nome do usuário?");
-    usuario = window.prompt('Enter a value for usuario');
-    while (recorrente) {
-        if (usuario == "Isabella") {
-            var senha;
-            
-            window.alert("Senha:");
-            senha = window.prompt('Enter a value for senha');
-            if (senha == "123") {
-                window.alert("Acessando conta...");
-                recorrente = false;
-            } else {
-                window.alert("Senha incorreta!");
-            }
-        } else {
-            window.alert("Incorreta!");
-        }
-    }
-}
-
-
-
-</script>
-
-<body class="coverback">
-
-    <footer> SP Medical Group (11) 9987-4513 </footer>
-</body>
-<br>
-<br>
-<br>
-<br>
-<center>
-    <div>
-        <br>
-        <center>
-            <h1> Faça seu login
-        </center>
-        </h1>
-        <center>
-            <img src="image 1.png" class="uiui">
-            <br>
-            <br>
-            <label for="fname">Login:</label>
-            <input type="text" id="fname" name="fname" placeholder="Insira seu email">
-            <br><br>
-            <label for="fname">Senha:</label>
-            <input type="text" id="fname" name="fname" placeholder="Insira sua Senha">
-            <br>
-            <p class="login"><button onclick="faça()">Faça</button></p>
-            <p class="login"><button onclick="enquanto()">Enquanto</button></p>
-
-
-            <p class="login">
-            <h4>Esqueceu a senha? Clique aqui </h4>
-            </p>
-        </center>
-</center>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-</div>
-
-
-<footer> FALE CONOSCO (11) 9987-4513 hospital.medicalup@gmail.com </footer>
-
-
-</body>
-
+<html lang="en" dir="ltr">
+   <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <title>Teste</title>
+       <link rel="stylesheet" href="">
+       <script src="geovana.js"></script>
+   </head>
+           
+   <body>
+           <button onclick="Enquanto()">Enquanto</button>
+           <button onclick="Faça()">Faça</button>
+   </body>
+           
 </html>
